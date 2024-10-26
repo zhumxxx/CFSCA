@@ -1,5 +1,5 @@
 # CFSCA
-code of paper "Compiler Auto-Tuning via Critical Flag Selection"\
+
 
 The folder CFCSA is the code for Compiler Auto-tuning via Critical Flag Selection, which contains getrelated.py and CFSCA.py. For example, if you want to use it to tune program correlation, you firstly need run getrelated.py as command python getrelated.py --source_path=/home/user/polybench-code/datamining/correlation --flag_path=/home/user/flag.txt, to obtain the related flags of the target program. Then you can input command python CFSCA.py --log_file=correlation_cfsca.log --source_path=/home/user/polybench-code/datamining/correlation --gcc_path=gcc --flag_path=/home/user/flag.txt --related_flags=1,2,3,4,5,6,7,8,9,10.
 
